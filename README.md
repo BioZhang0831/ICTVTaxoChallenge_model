@@ -3,7 +3,7 @@
    
    Our results can be found in the result folder, with the file named as `ICTVTaxoChallenge_taxonomy_result.tsv`
 
-   All dataset and features used for model training and testing can be found in the Baidu disk link file.
+   All dataset and features used for model training and testing can be found in the Baidu disk link file `dataprocess/Baidu_disk_link`.
 # Getting started 
 ## Prerequisite
 * cython
