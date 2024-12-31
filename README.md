@@ -12,7 +12,12 @@
 * editdistance
 * pytorch 1.7.1
 * pytorch_geometric 1.7.0
+
 ## Install
+
+```shell
+conda env create -f environment.yml
+```
 ## Examples
 ## Parameters
 ## Maintainer
