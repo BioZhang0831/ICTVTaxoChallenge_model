@@ -13,12 +13,21 @@
 * pytorch 1.7.1
 * pytorch_geometric 1.7.0
 
-## Install
+## Install by Conda
 
 ```shell
 conda env create -f environment.yml
 ```
-## Examples
-## Parameters
-## Maintainer
-## Reference
+
+## Code Replication Steps
+
+1. Data Processing (`dataprocess/process.ipynb`)
+This Jupyter notebook contains the initial steps required to process the raw data. It includes data cleaning, normalization, and splitting the data into training and testing datasets. Ensure you have all the necessary libraries installed and that the raw data is located in the specified directory before running this notebook.
+2. Model Training (`model/train.ipynb`)
+In this notebook, the machine learning model is trained using the processed data. This includes the selection of model parameters, training the model, and evaluating its performance on the training dataset.
+3. Prediction Data Processing (`dataprocess/prediction_process.ipynb`)
+This notebook prepares the data that will be used for making predictions. It processes new or unseen data similar to how the training data was processed, ensuring consistency in data handling.
+4. Model Prediction (`model/prediction.ipynb`)
+Use the trained model to make predictions on new data processed in the previous step. This notebook loads the trained model, inputs the processed data, and outputs the predictions.
+5. Results Processing (`dataprocess/result_process.ipynb`)
+After obtaining predictions, this notebook is used to process the results. 
