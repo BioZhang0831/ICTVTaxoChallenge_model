@@ -6,6 +6,12 @@
    All dataset and features used for model training and testing can be found in the Baidu disk link file.
 # Getting started 
 ## Prerequisite
+cython
+numpy
+biopython
+editdistance
+pytorch 1.7.1
+pytorch_geometric 1.7.0
 ## Install
 ## Examples
 ## Parameters
